@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #fdfdfb;
+            color: #2a2a2a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 340px;
+            text-align: center;
+        }
+
+        .greeting {
+            font-size: 17px;
+            color: #4a4a4a;
+            margin-bottom: 24px;
+            font-weight: 400;
+            line-height: 1.6;
+            letter-spacing: -0.01em;
+        }
+
+        .name {
+            font-size: 19px;
+            color: #2a2a2a;
+            margin-bottom: 40px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            opacity: 0.85;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 18px 32px;
+            background: #3d3d3d;
+            color: #fefefe;
+            border: none;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 450;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
+            letter-spacing: -0.005em;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .button:active {
+            background: #2d2d2d;
+            transform: translateY(1px);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .helper {
+            margin-top: 16px;
+            font-size: 13px;
+            color: #b8b8b8;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="greeting">It was really nice meeting you—<br>let's stay in touch</p>
+        <p class="name">— Aditi Tipnis</p>
+        <a href="aditi.vcf"  class="button">Save my contact</a>
+        <p class="helper">works on any phone</p>
+    </div>
+</body>
+</html>
